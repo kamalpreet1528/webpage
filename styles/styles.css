@@ -43,7 +43,7 @@ html{
 }
 
 .history{
-    background-image: url('./pictures/pexels-joshua-135018.jpg');
+    background-image: url('../pictures/pexels-joshua-135018.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     height: 70vh; 
