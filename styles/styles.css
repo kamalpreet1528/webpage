@@ -1,0 +1,86 @@
+html{
+    font-size: 2.5vb;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar{
+    background: rgb(250, 235, 215);
+}
+
+.navbar-brand{
+    font-weight: bolder;
+    color: #3039dd;
+}
+
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.images .column .card{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 1em;
+}
+
+.images .column .card #image{
+    width: 18rem;
+    height: 12rem;
+    border-radius: 1em;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: rgb(64, 52, 134);
+    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-clip: text;
+    color: transparent;
+}
+
+.history{
+    background-image: url('/pictures/pexels-joshua-135018.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh; /* Set the height of the element, e.g., the entire viewport height */
+    width: 100%; /* Set the width of the element to 100% */
+    margin: 0; /* Remove default margin to ensure full coverage */
+}
+
+.history h2, p{
+    font-size: 1.5rem;
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    margin: 2rem;
+}
+
+h2{
+    font-size: 2rem !important;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    font-weight: 500;
+    background: #111010e8;
+}
+
+footer .card{
+    width: 100%;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    height: 100%;
+    background: linear-gradient(to right, #ecf1f1 0%, #6e6c71 100%);
+    background-clip: text;
+    color: transparent;
+    border: none;
+}
+
+footer .card a{
+    text-decoration: none;
+    color: unset;
+}
