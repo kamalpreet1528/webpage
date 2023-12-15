@@ -3,36 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is local css file -->
     <link rel="stylesheet" href="./styles/stylesforvisitus.css">
+    <!-- this is the css file link from the bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Visit us</title>
 </head>
 <body>
+    <!-- this is the main body of the webpage -->
+
+    <!-- this is like an instruction for the filling the form -->
     <p>Fill the form to register a date for visiting</p>
+
+    <!-- this form contains the input tage for taking input form the user -->
     <form class="row g-3" class="visitForm">
+
+        <!-- this div is for taking email as input -->
         <div class="col-md-6">
           <label for="inputEmail4" class="form-label" >Email</label>
           <input type="email" class="form-control" id="inputEmail4" placeholder="abc@xyz.com">
         </div>
+
+        <!-- this div takes input fo the password -->
         <div class="col-md-6">
           <label for="inputPassword4" class="form-label">Password</label>
           <input type="password" class="form-control" id="inputPassword4" placeholder="password">
         </div>
+
+        <!-- this is input for the addresss -->
         <div class="col-12">
           <label for="inputAddress" class="form-label">Address</label>
           <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
         </div>
+
+        <!-- this div tag contains input for any secondary address -->
         <div class="col-12">
           <label for="inputAddress2" class="form-label">Address 2</label>
           <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
         </div>
+
+        <!-- this is input box for city -->
         <div class="col-md-6">
           <label for="inputCity" class="form-label">City</label>
           <input type="text" class="form-control" id="inputCity">
         </div>
+
+        <!-- this is drop down for selecting the state -->
         <div class="col-md-4">
           <label for="inputState" class="form-label">State</label>
           <select id="inputState" class="form-select">
+
+            <!-- these are the options for the drop-down -->
             <option selected>Choose...</option>
             <option>Ontario</option>
             <option>British Columbia</option>
@@ -44,16 +65,20 @@
             <option>Manitoba</option>
             <option>Alberta</option>
             <option>New Brunswick</option>
-            
 
           </select>
+
+        <!-- this div contain input for the zip code of the address -->
         </div>
         <div class="col-md-2">
           <label for="inputZip" class="form-label">Zip</label>
           <input type="text" class="form-control" id="inputZip">
         </div>
+
+        <!-- this div contains the input for the date of the visit -->
         <div class="form-floating">
             <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
+                <!-- these are the options for the dates available -->
               <option selected>Select a Date</option>
               <option value="1">18/12/2023</option>
               <option value="2">20/12/2023</option>
@@ -66,6 +91,8 @@
             </select>
             <label for="floatingSelect">Works with selects</label>
           </div>
+
+          <!-- this is checkbox input -->
         <div class="col-12">
           <div class="form-check">
             <input class="form-check-input" type="checkbox" id="gridCheck">
@@ -74,11 +101,16 @@
             </label>
           </div>
         </div>
+
+        <!-- this div contains the submit button -->
         <div class="col-12">
-          <button type="submit" class="btn btn-primary">Register</button>
+          <button type="submit" class="btn btn-primary" onclick="submission()">Register</button>
         </div>
     </form>
 
+    <!-- this links the local javascript file -->
+    <script src="./scripts/script.js"></script>
+    <!-- this links the javascript from bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

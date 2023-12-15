@@ -4,14 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- this is the local css file -->
     <link rel="stylesheet" href="./styles/styles.css">
+    <!-- this is the css file from the bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
+
+  <!-- this is the header of the webpage -->
   <header>
+
+    <!-- this is the navigation bar which contains navigation links -->
     <nav class="navbar navbar-expand-lg">
+
+      <!-- this is a container in the navigation bar that contains all the navigation links -->
       <div class="container">
-          <a class="navbar-brand" href="#">Welcome to Artistry Avenue Gallery</a>
+        <!-- here we have all our navigation links -->
+        <!-- if you click on this link it will take you to index.html, which is our main webpage -->
+          <a class="navbar-brand" href="index.html">Welcome to Artistry Avenue Gallery</a>
+
+          <!-- this div contains other links -->
           <div class="d-flex justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -24,6 +36,8 @@
                 <a class="nav-link active" href="#contact">Contact us</a>
               </li>
             </ul>
+
+            <!-- this is type of form in which we have only one input and one button -->
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
               <button class="btn btn-outline-success" type="submit">Search</button>
@@ -33,26 +47,33 @@
     <nav>
   </header>
 
+  <!-- this is the main tag in which we have the major portion of the body -->
   <main>
+
+    <!-- this div contains images for the display on front of the webpage -->
     <div class="images">
+      <!-- this is an image with alt attribute as its description -->
         <div class="column">
             <div class="card">
                 <img id="image" src="./pictures/AllentownArtMuseum_Gallery01_DiscoverLehighValley_2450c76f-4de5-402c-a060-d0a8ff3b1d37.jpg" alt="...">
             </div>
         </div>
 
+        <!-- this is an image with alt attribute as its description -->
         <div class="column">
             <div class="card">
                 <img id="image" src="./pictures/image.jpg" alt="...">
             </div>
         </div>
 
+        <!-- this is an image with alt attribute as its description -->
         <div class="column">
             <div class="card">
                 <img id="image" src="./pictures/Picture20(wide20photo20Gardner.20Museum.jpg" alt="...">
             </div>
         </div>
         
+        <!-- this is an image with alt attribute as its description -->
         <div class="column">
             <div class="card">
                 <img id="image" src="./pictures/View-of-Self-Portrait-at-the-age-of-about-forty-by-Joseph-Wright-of-Derby-in-the-Joseph-Wright-Gallery-at-Derby-Museum-and-Art-Gallery.-Image-c-Oliver-Taylor-Derby-Museums-1.jpg" alt="...">
@@ -60,10 +81,12 @@
         </div>
     </div>
 
+    <!-- this div contains the title to be displayed on the main webpage -->
     <div class="title">
       Artistry Avenue Gallery
     </div>
 
+    <!-- this is a paragraph containing information about the gallery-->
     <div class="history">
       <h2>History</h2>
       <p>
@@ -73,7 +96,9 @@
   </main>
 
   <footer>
-
+  <!-- this is the footer tag which is displayed on the foot of the webpage -->
+    
+  <!-- this is like a card without border containing contact info -->
   <div class="column">
     <div class="card" id="contact">
       <h4>Contact Information</h4>
@@ -85,6 +110,7 @@
     </div>
   </div>
 
+  <!-- this is like a card without border containing navigation links -->
   <div class="column">
       <div class="card">
           <h4>Navigation Links</h4>
@@ -97,6 +123,7 @@
       </div>
   </div>
 
+  <!-- this is like a card without border containing social media links -->
   <div class="column">
       <div class="card">
         <h4>Social Media Links</h4>
@@ -108,6 +135,9 @@
 
   </footer>
 
+  <!-- this links the local javascript file -->
+  <script src="./scripts/script.js"></script>
+  <!-- this is the link for the javascript from bootstrap -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>

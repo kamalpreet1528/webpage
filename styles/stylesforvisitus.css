@@ -1,3 +1,4 @@
+/* this sets the default properties of the html webpage */
 html{
     margin: 5rem 5rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -5,12 +6,14 @@ html{
     font-weight: 900;
 }
 
+/* this sets the paragraph content and its properties */
 p{
     font-size: 1.5rem;
     text-align: center;
     font-weight: 700;
 }
 
+/* this sets the properties of the form */
 .visitForm{
     padding: 2rem;
     width: 60% !important;

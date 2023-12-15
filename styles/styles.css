@@ -1,17 +1,21 @@
+/* these are default styles for the webapge */
 html{
     font-size: 2.5vb;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+/* setting background for the navigatipon bar */
 .navbar{
     background: rgb(250, 235, 215);
 }
 
+/* this tag defones the font weight and color in the navigation bar */
 .navbar-brand{
     font-weight: bolder;
     color: #3039dd;
 }
 
+/* this defines the style of the image class */
 .images{
     display: flex;
     flex-direction: row;
@@ -19,18 +23,21 @@ html{
     margin: 2rem;
 }
 
+/* here we change the styles in the card elements */
 .images .column .card{
     width: 18rem;
     height: 12rem;
     border-radius: 1em;
 }
 
+/* adding a border readius and adjusting the sizes */
 .images .column .card #image{
     width: 18rem;
     height: 12rem;
     border-radius: 1em;
 }
 
+/* this changes the styles for the title class */
 .title{
     display: flex;
     justify-content: center;
@@ -42,6 +49,7 @@ html{
     color: transparent;
 }
 
+/* this defines the properties of the hostory class */
 .history{
     background-image: url('../pictures/pexels-joshua-135018.jpg');
     background-size: cover;
@@ -51,6 +59,7 @@ html{
     margin: 0;
 }
 
+/* here we set the properties of h2 and paragraph in history class */
 .history h2, p{
     font-size: 1.5rem;
     color: antiquewhite;
@@ -59,10 +68,12 @@ html{
     margin: 2rem;
 }
 
+/* here we define the size of the h2 tag */
 h2{
     font-size: 2rem !important;
 }
 
+/* this sets the properties of the footer tag */
 footer{
     display: flex;
     justify-content: space-around;
@@ -70,6 +81,7 @@ footer{
     background: #111010e8;
 }
 
+/* this sets the properties of the card class in the footer tag */
 footer .card{
     width: 100%;
     padding: 0.5rem 1rem 0.5rem 1rem;
@@ -80,6 +92,7 @@ footer .card{
     border: none;
 }
 
+/* this sets the properties of the ancohor tag in card class*/
 footer .card a{
     text-decoration: none;
     color: unset;
