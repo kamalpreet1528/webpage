@@ -43,12 +43,12 @@ html{
 }
 
 .history{
-    background-image: url('/pictures/pexels-joshua-135018.jpg');
+    background-image: url('./pictures/pexels-joshua-135018.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    height: 70vh; /* Set the height of the element, e.g., the entire viewport height */
-    width: 100%; /* Set the width of the element to 100% */
-    margin: 0; /* Remove default margin to ensure full coverage */
+    height: 70vh; 
+    width: 100%; 
+    margin: 0;
 }
 
 .history h2, p{
